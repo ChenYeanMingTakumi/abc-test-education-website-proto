@@ -63,6 +63,7 @@ function RootShell({ children }: { children: React.ReactNode }) {
       </head>
       <body>
         {children}
+        <script src="https://cdn.jotfor.ms/agent/embedjs/019df6db39707df3a0a9c97568a8612f7374/embed.js" async />
         <Scripts />
       </body>
     </html>
