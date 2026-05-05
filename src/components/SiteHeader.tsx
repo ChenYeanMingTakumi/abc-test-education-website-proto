@@ -11,7 +11,7 @@ export function SiteHeader() {
             <GraduationCap className="h-5 w-5" />
           </div>
           <div className="leading-tight">
-            <div className="text-base font-bold text-secondary">Aspen Education</div>
+            <div className="text-base font-bold text-secondary">ABC Test Education</div>
             <div className="text-[10px] uppercase tracking-widest text-muted-foreground">Malaysia</div>
           </div>
         </Link>

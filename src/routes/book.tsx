@@ -18,7 +18,7 @@ import { supabase } from "@/integrations/supabase/client";
 export const Route = createFileRoute("/book")({
   head: () => ({
     meta: [
-      { title: "Book a Trial Class — Aspen Education Malaysia" },
+      { title: "Book a Trial Class — ABC Test Education Malaysia" },
       { name: "description", content: "Reserve your child's free trial class online. Choose program, date and time slot." },
     ],
   }),
@@ -108,7 +108,7 @@ function BookPage() {
 
   if (success) {
     const waMsg = encodeURIComponent(
-      `Hi Aspen Education! I just booked a trial class:\n` +
+      `Hi ABC Test Education! I just booked a trial class:\n` +
       `Child: ${success.child_name}\nProgram: ${success.program}\n` +
       `Date: ${success.booking_date} at ${success.time_slot}\nRef: ${success.id.slice(0, 8)}`,
     );

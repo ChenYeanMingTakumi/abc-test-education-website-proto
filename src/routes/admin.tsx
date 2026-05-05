@@ -10,7 +10,7 @@ import { supabase } from "@/integrations/supabase/client";
 export const Route = createFileRoute("/admin")({
   head: () => ({
     meta: [
-      { title: "Admin — Aspen Education Bookings" },
+      { title: "Admin — ABC Test Education Bookings" },
       { name: "description", content: "Manage trial class bookings." },
     ],
   }),

@@ -7,8 +7,8 @@ import heroImage from "@/assets/hero-classroom.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Aspen Education Malaysia — Book a Trial Class Online" },
-      { name: "description", content: "Book trial classes and consultations online with Aspen Education Malaysia. English, Math, Phonics and more for your child." },
+      { title: "ABC Test Education Malaysia — Book a Trial Class Online" },
+      { name: "description", content: "Book trial classes and consultations online with ABC Test Education Malaysia. English, Math, Phonics and more for your child." },
     ],
   }),
   component: Home,
@@ -52,7 +52,7 @@ function Home() {
             <div className="absolute -inset-4 rounded-3xl bg-[image:var(--gradient-warm)] opacity-20 blur-2xl" />
             <img
               src={heroImage}
-              alt="Happy children learning at Aspen Education Malaysia"
+              alt="Happy children learning at ABC Test Education Malaysia"
               width={1536}
               height={1024}
               className="relative rounded-2xl shadow-[var(--shadow-elegant)]"
@@ -64,7 +64,7 @@ function Home() {
       {/* Features */}
       <section className="border-t border-border bg-muted/40 py-16">
         <div className="container mx-auto px-4">
-          <h2 className="text-center text-3xl font-bold text-secondary">Why parents choose Aspen</h2>
+          <h2 className="text-center text-3xl font-bold text-secondary">Why parents choose ABC Test Education</h2>
           <p className="mx-auto mt-3 max-w-xl text-center text-muted-foreground">
             A simple, modern booking experience — built for busy Malaysian families.
           </p>
@@ -115,7 +115,7 @@ function Home() {
       </section>
 
       <footer className="border-t border-border py-8 text-center text-sm text-muted-foreground">
-        © {new Date().getFullYear()} Aspen Education Malaysia. Prototype.
+        © {new Date().getFullYear()} ABC Test Education Malaysia. Prototype.
       </footer>
     </div>
   );
