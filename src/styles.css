@@ -32,7 +32,7 @@
 
 :root {
   --radius: 0.75rem;
-  /* Aspen Education palette: warm orange + deep navy + cream */
+  /* ABC Test Education palette: warm orange + deep navy + cream */
   --background: oklch(0.99 0.01 80);
   --foreground: oklch(0.22 0.04 260);
   --card: oklch(1 0 0);
